@@ -1,4 +1,3 @@
-import uuid
 from django.db import models
 
 class MoodEntry(models.Model):
