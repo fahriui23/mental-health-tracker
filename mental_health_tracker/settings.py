@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-+4+d$f*bl+5uu_4w5-6=&jm(-ikk-f&n!d^cj^#lwkmv1v3&9y
 PRODUCTION = os.getenv("PRODUCTION", False)
 DEBUG = not PRODUCTION
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1","trias-fahri-mentalhealthtracker.pbp.cs.ui.ac.id"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1","trias-fahri-mentalhealthtracker.pbp.cs.ui.ac.id","10.0.2.2",]
 
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
